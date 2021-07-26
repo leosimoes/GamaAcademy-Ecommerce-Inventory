@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(88, 231, 88);
+}
+
+
+footer{
+    background-color: rgb(88, 231, 88);
+}

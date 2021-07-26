@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Inventory Page"/>
+    <meta name="author" content="Leonardo Simoes"/>
+
+    <link rel="shortcut icon" href="#"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" 
+    integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.2.0/jquery-migrate.min.js" 
+    integrity="sha512-5O0jzCJTmTO9ylmof+eDShChXs+Y0GncP7fXqEq1jQQ7KwoIALwLIleE4ritPTgfuWEALFmXOTeXopcLMQ8X8A==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles/style.css"/>
+
+    <title>Inventory Page</title>
+
+</head>
+
+
+<body onload="carregarElementosPagina()">
+
+    <header class="container-fluid" role="banner">
+        <h1 class="text-center">Inventário de cursos</h1>
+    </header>
+
+    <main class="container-fluid" role="main">
+        <section id="lista_produtos" class="row align-items-center justify-content-center" style="height:80vh;">
+            <!--Divs adicionadas via js-->
+        </section>
+    </main>
+
+    <footer class="container-fluid fixed-bottom text-center" role="contentinfo">
+        <p>&copy; 2021 Leonardo Simões</p>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+
+    <script type="text/javascript" src="./scripts/data.js"></script>
+    <script type="text/javascript" src="./scripts/script.js"></script>
+</body>
+
+</html>
